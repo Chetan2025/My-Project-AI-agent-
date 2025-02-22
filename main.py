@@ -4,6 +4,8 @@
  answering any type of question. I know it's not an advanced or perfect project, 
  but I wanted to try something new and create this AI assistant."""
 
+#     C A L L I N G   THE  S I R I 
+
 import speech_recognition as sr
 import webbrowser
 import pyttsx3
@@ -91,7 +93,7 @@ if __name__ == "__main__":
                             speak(" have a nice day.")
                             break
 
-                        print(f"You said: {command}")
+                        print(f"You said: {command}") 
                         Process_task(command)  # Process the recognized command
 
         except sr.UnknownValueError:  # Handle cases where the speech is not understood
